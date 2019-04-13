@@ -137,7 +137,7 @@ Module:
 ```
 
 You can reproduce this result and play with the example in the `examples/toy/Ch1/`
-directory, try running `path/to/BUILD/bin/toyc-ch1 test/ast.toy -emit=ast`.
+directory. From `/path/to/mlir`, try running `path/to/BUILD/bin/toyc-ch1 test/Examples/Toy/Ch1/ast.toy -emit=ast`.
 
 The code for the lexer is fairly straighforward, it is all in a single header:
 `examples/toy/Ch1/include/toy/Lexer.h`. The parser can be found in
